@@ -1,3 +1,30 @@
+@charset "UTF-8";
+/* Couleur de fond de la barre de défilement pour WebKit */
+::-webkit-scrollbar {
+  background-color: #4EE1A0;
+}
+
+/* Couleur de la poignée de la barre de défilement pour WebKit */
+::-webkit-scrollbar-thumb {
+  background-color: #4EE1A0;
+  border-radius: 10px;
+}
+
+/* Largeur de la poignée de la barre de défilement pour WebKit */
+::-webkit-scrollbar-thumb {
+  width: 10px;
+}
+
+/* Style de bordure de la poignée de la barre de défilement pour WebKit */
+::-webkit-scrollbar-thumb {
+  border: 3px solid #4EE1A0;
+}
+
+/* Couleur de fond et de la poignée de la barre de défilement pour Firefox */
+* {
+  scrollbar-color: #4EE1A0 #F5F5F5;
+}
+
 /* RESET */
 * {
   margin: 0;
