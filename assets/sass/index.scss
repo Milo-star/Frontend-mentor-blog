@@ -1,0 +1,46 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body{
+    background-color: #151515;
+
+}
+
+/* HEADER */
+
+.header-top{
+    text-align: center;
+}
+
+.img-profil{
+    height: 35rem;
+}
+
+.about{
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    width: 100%;
+}
+
+.name{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.icon-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    list-style-type: none;
+}
+
