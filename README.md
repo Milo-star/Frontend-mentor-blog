@@ -1,4 +1,4 @@
-# Frontend-mentor-blog
+# Single-Page-Portfolio
     Contexte : WebDev training @BeCode
 
 * Type of project
@@ -11,5 +11,5 @@
 
 * Assignment
 
-    Creation of a training blog via Frontend Mentor.
+    Creation of a training portfolio via Frontend Mentor.
 
