@@ -128,6 +128,10 @@ hr {
     width: 90%;
 }
 
+.img-projects:hover{
+    border: 1px solid #4EE1A0;
+}
+
 .title-portfolio {
     margin-top: 1rem;
     color: white;
@@ -208,3 +212,27 @@ button {
 .footer{
     padding: 2rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .about{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .icon-social{
+        position: relative;
+        right: 10%;
+    }
+
+    .name{
+        position: relative;
+        left: 50%;
+    }
+
+    .img-profil{
+        height: 100%;
+        position: relative;
+        left: 30%;
+    }
+  }
