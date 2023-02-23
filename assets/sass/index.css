@@ -39,4 +39,108 @@ body {
   justify-content: center;
   gap: 2rem;
   list-style-type: none;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  max-width: 24rem;
+}
+
+.underline {
+  border-bottom: 2px solid #4EE1A0;
+}
+
+.text-about {
+  text-align: center;
+  color: white;
+  margin-top: 3vh;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 4vh;
+}
+
+.btn-contact-me {
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: white;
+  padding: 0.6rem;
+  background-color: transparent;
+  border-bottom: 2px solid #4EE1A0;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin-bottom: 4rem;
+}
+
+.btn-contact-me:hover {
+  color: #4EE1A0;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 251, 251, 0.75), rgba(0, 0, 0, 0));
+}
+
+.skills {
+  text-align: center;
+  color: white;
+}
+
+.skill {
+  padding: 1.3rem;
+}
+
+.experience {
+  font-weight: bold;
+  color: rgb(217, 217, 217);
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+.title-project {
+  color: white;
+  font-size: 2rem;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-projects {
+  margin: auto;
+  width: 90%;
+}
+
+.title-portfolio {
+  margin-top: 1rem;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  font-size: 1.2rem;
+  margin-left: 4.2vw;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.techno {
+  display: flex;
+  flex-direction: row;
+  color: #b9b6b6;
+  gap: 1rem;
+  font-weight: bold;
+  margin-left: 4.2vw;
+  font-family: "Space Grotesk", sans-serif;
 }/*# sourceMappingURL=index.css.map */
