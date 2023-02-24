@@ -265,6 +265,23 @@ button {
         height: 100%;
         position: relative;
         left: 30%;
+        margin-bottom: 5rem;
+    }
+
+    .text-about {
+        max-width: 50%;
+        font-size: 1.3rem;
+    }
+
+    .container-header{
+        position: absolute;
+        top: 40%;
+        left: 10%;
+    }
+
+    h1{
+        font-size: 3rem;
+        max-width: 50%;
     }
 
     .skills{
