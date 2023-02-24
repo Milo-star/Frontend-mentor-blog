@@ -26,9 +26,6 @@
     scrollbar-color: #4EE1A0 #F5F5F5;
 }
 
-
-
-
 /* RESET */
 
 * {
@@ -63,7 +60,7 @@ body {
     text-decoration: none;
     color: white;
     margin-bottom: 1rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -264,6 +261,19 @@ button {
         position: relative;
         left: 30%;
     }
+
+    .skills{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin: 5rem;
+        gap: 5vw;
+    }
+
+    .skill{
+        width: 20vw;
+    }
+
 
     .all-projects{
         display: flex;
