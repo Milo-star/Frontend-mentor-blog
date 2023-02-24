@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+  <script src="assets/js/survol.js" defer></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="author" content="Milo">
@@ -26,23 +27,23 @@
         </a>
         <ul class="icon-social">
           <li>
-            <a href="https://github.com/milo-star" target="_blank" class="social-github">
-              <img src="assets/img/icon-github.svg" class="social-github"></img>
+            <a href="https://github.com/milo-star" target="_blank" class="social-github"></a>
+              <img src="assets/img/icon-github.svg" id="github" onmouseover="survolgithub()" onmouseout="finSurvolgithub()"></img>
             </a>
           </li>
           <li>
             <a href=" https://www.frontendmentor.io/profile/Milo-star" target="_blank">
-              <img src="assets/img/icon-frontend-mentor.svg" class="social"></img>
+              <img src="assets/img/icon-frontend-mentor.svg" id="frontend" onmouseover="survolfront()" onmouseout="finSurvolfront()"></img>
             </a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/milo-bonnet/" target="_blank">
-              <img src="assets/img/icon-linkedin.svg""></img>
+              <img src="assets/img/icon-linkedin.svg"" id="linkedin" onmouseover="survollinkedin()" onmouseout="finSurvollinkedin()"></img>
               </a>
             </li>
             <li>
               <a href=" https://twitter.com" target="_blank">
-              <img src="assets/img/icon-twitter.svg""></img>
+              <img src="assets/img/icon-twitter.svg"" id="twitter" onmouseover="survoltwitter()" onmouseout="finSurvoltwitter()"></img>
               </a>
             </li>
           </ul>
