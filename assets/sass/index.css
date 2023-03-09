@@ -254,7 +254,7 @@ button {
   .skills {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     margin: 5rem;
     gap: 5vw;
   }
