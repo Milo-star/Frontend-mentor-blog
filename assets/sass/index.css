@@ -36,6 +36,11 @@ body {
   background-color: #151515;
 }
 
+a {
+  font-family: sans-serif;
+  color: white;
+}
+
 /* HEADER */
 .header-top {
   text-align: center;
