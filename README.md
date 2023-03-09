@@ -11,5 +11,5 @@
 
 * Assignment
 
-    Creation of a training portfolio via Frontend Mentor.
+    Creation of a training my portfolio via Frontend Mentor.
 
