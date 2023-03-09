@@ -24,13 +24,3 @@ function survollinkedin() {
 function finSurvollinkedin() {
     document.getElementById("linkedin").src = "assets/img/icon-linkedin.svg";
 }
-
-// Twitter
-function survoltwitter() {
-    document.getElementById("twitter").src = "assets/img/icon-twitter-active.svg";
-}
-
-function finSurvoltwitter() {  
-    document.getElementById("twitter").src = "assets/img/icon-twitter.svg";
-}
-

@@ -212,7 +212,7 @@ footer {
   margin-top: 1rem;
 }
 
-.main-form {
+#main-form {
   display: flex;
   flex-direction: column;
   margin: 1rem;
