@@ -48,6 +48,7 @@ a {
 
 .img-profil {
   height: 35rem;
+  width: 100%;
 }
 
 .about {
@@ -177,6 +178,7 @@ hr {
   font-weight: bold;
   margin-left: 4.2vw;
   font-family: "Space Grotesk", sans-serif;
+  width: 100%;
 }
 
 .langue {
