@@ -6,6 +6,7 @@ function survolgithub() {
 function finSurvolgithub() {
     document.getElementById("github").src = "assets/img/icon-github.svg";
 }
+0
 
 // Linkedin
 function survollinkedin() {
