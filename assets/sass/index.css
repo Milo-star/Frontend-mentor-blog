@@ -7,7 +7,7 @@
 
 body {
   background-color: #151515;
-  width: 100vw;
+  width: 100%;
 }
 
 a {
@@ -21,7 +21,7 @@ a {
 }
 
 .img-profil {
-  height: 32rem;
+  height: 30rem;
 }
 
 .about {
@@ -269,9 +269,6 @@ button {
   }
   .img-projects {
     height: 15rem;
-  }
-  .btn-project {
-    margin-left: 0%;
   }
   .header-footer {
     display: flex;
