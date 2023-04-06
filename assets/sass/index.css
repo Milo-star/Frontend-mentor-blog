@@ -191,31 +191,32 @@ footer {
   margin-top: 1rem;
 }
 
-#main-form {
-  display: flex;
-  flex-direction: column;
-  margin: 1rem;
-}
-
-.input {
-  background-color: transparent;
-  border: none;
-  color: gray;
-  padding: 1rem;
-  font-size: 1.2rem;
-}
-
-.input:focus {
-  outline: none;
-}
-
-.form,
-button {
-  margin: 1rem;
-}
-
 .footer {
   padding: 2rem;
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.github-contact {
+  margin: 1rem;
+  display: flex;
+}
+.github-contact a {
+  justify-items: center;
+  margin-left: 0.5rem;
+}
+
+.linkedin-contact {
+  margin: 1rem;
+  display: flex;
+}
+.linkedin-contact a {
+  justify-items: center;
+  margin-left: 0.5rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -278,11 +279,12 @@ button {
     max-width: 50vw;
     margin: 2rem;
   }
-  .form {
-    width: 60%;
-    margin: 2rem;
-  }
   .footer {
     padding-top: 0;
+  }
+  .contact-left {
+    display: flex;
+    flex-direction: column;
+    margin: 6rem;
   }
 }/*# sourceMappingURL=index.css.map */
