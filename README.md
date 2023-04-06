@@ -5,10 +5,6 @@
 
     Solo
 
-* Duration
-
-    * 3 days
-
 * Assignment
 
     Creation of a training my portfolio via Frontend Mentor.
